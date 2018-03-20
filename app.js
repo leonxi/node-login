@@ -27,7 +27,7 @@ app.use(express.static(__dirname + '/app/public'));
 
 // build mongo database connection url //
 
-var dbHost = process.env.DB_HOST || 'localhost'
+var dbHost = process.env.DB_HOST || 'mongodb'
 var dbPort = process.env.DB_PORT || 27017;
 var dbName = process.env.DB_NAME || 'node-login';
 
